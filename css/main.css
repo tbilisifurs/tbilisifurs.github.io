@@ -117,13 +117,6 @@ h2 {
     color: #ff4800;
 }
 
-.ipad {
-    display: block;
-    margin: 60px auto 0;
-}
-
-
-
 /* Второй экран */
 
 .feature {
@@ -213,8 +206,6 @@ h2 {
         margin: 0 auto;
         margin-bottom: 30px;
     }
-
-    
 
     .offer {
         text-align: center;
