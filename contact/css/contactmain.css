@@ -75,6 +75,11 @@ h2 {
     color: #fff;
 }
 
+.menu__item a:hover {
+    color: #fff;
+    
+}
+
 .offer {
     margin-top:117px;
     justify-content: center;
@@ -195,6 +200,8 @@ h2 {
     margin: 0 auto;
     text-align: center;
 }
+
+
 
 .services {
     display: flex;

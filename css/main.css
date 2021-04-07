@@ -73,6 +73,7 @@ h2 {
     font-size:22px;
     font-weight:700;
     color: #fff;
+    text-decoration: none;
 }
 
 .offer {
@@ -112,10 +113,26 @@ h2 {
     transition: all 0.3s ease;
 }
 
-.icons__item a:hover {
-    text-decoration: none;
-    color: #ff4800;
+
+ul a:hover{
+  color: #fff !important;
 }
+
+li > a:after{
+    content: '';
+    display: block;
+    height: 1.5px;
+    background: #fff;
+    transform: scaleX(0);
+    transition: transform .3s;
+
+}
+li > a:hover:after{
+    transform: scaleX(1);
+    transition: transform .3s;
+}
+
+
 
 /* Второй экран */
 
@@ -191,6 +208,8 @@ h2 {
     margin: 0 auto;
     text-align: center;
 }
+
+
 
 .button__more {
     display: flex;
