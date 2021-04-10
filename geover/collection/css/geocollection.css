@@ -44,6 +44,28 @@ h2 {
     color: #fcdb00;
 }
 
+ul a:hover{
+    color: #fff !important;
+  }
+  nav li{
+      text-align: center;
+      text-transform: uppercase;
+  }
+  li > a:after{
+      content: '';
+      display: block;
+      height: 1.5px;
+      background: #fff;
+      transform: scaleX(0);
+      transition: transform .3s;
+  }
+  li > a:hover:after{
+      transform: scaleX(1);
+      transition: transform .3s;
+  }
+  .active{
+      color: #fff !important;
+  }
 
 /* Первый экран */
 
@@ -73,6 +95,7 @@ h2 {
     font-size:22px;
     font-weight:700;
     color: #fff;
+    text-decoration: none;
 }
 
 .offer {
