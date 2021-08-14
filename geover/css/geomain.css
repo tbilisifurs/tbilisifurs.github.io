@@ -47,6 +47,24 @@ h2 {
 
 /* Первый экран */
 
+.header-btn {
+    color: #fff;
+    background: 0;
+    width: 170px;
+    border: 2px solid;
+    border-radius: 25px;
+    height: 50px;
+    font-size: 22px;
+    font-weight: bold;
+    transition: all .2s linear;
+}
+
+.header-btn:hover {
+    background-color: #fff;
+    color: #4267B2;
+    border: 0;
+}
+
 .header {
     background: url("../../img/intro.jpg") center no-repeat;
     -webkit-background-size: cover;
